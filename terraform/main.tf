@@ -30,7 +30,6 @@ resource "aws_instance" "web" {
   tags = {
     Name = "api_via_cep"
   }
-  key_name             = "curso"
 }
 
 resource "aws_security_group" "allow_http" {
